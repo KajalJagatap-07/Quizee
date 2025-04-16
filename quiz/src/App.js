@@ -8,50 +8,50 @@ const quizData = {
     {
       "question": "What is the correct HTML element for inserting a line break?",
       "options": ["<break>", "<lb>", "<br>", "<line>"],
-      "answer": 3,
-      "explanation": "The <br> tag is used to insert a line break in HTML."
+      answer: 2,
+      explanation: "The <br> tag is used to insert a line break in HTML."
     },
     {
       "question": "Which HTML tag is used to define an unordered list?",
       "options": ["<ul>", "<ol>", "<li>", "<list>"],
-      "answer": 1,
-      "explanation": "The <ul> tag is used to define an unordered list in HTML."
+      answer: 0,
+      explanation: "The <ul> tag is used to define an unordered list in HTML."
     },
     {
       "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
       "options": ["title", "alt", "src", "href"],
-      "answer": 2,
-      "explanation": "The alt attribute specifies an alternate text for an image."
+      answer: 1,
+      explanation: "The alt attribute specifies an alternate text for an image."
     },
     {
       "question": "What is the correct HTML element for the largest heading?",
       "options": ["<heading>", "<h6>", "<h1>", "<head>"],
-      "answer": 3,
-      "explanation": "The <h1> element defines the largest heading in HTML."
+      answer: 2,
+      explanation: "The <h1> element defines the largest heading in HTML."
     },
     {
       "question": "Which HTML tag is used to create a hyperlink?",
       "options": ["<link>", "<a>", "<href>", "<hyperlink>"],
-      "answer": 2,
-      "explanation": "The <a> tag is used to create a hyperlink in HTML."
+      answer: 1,
+      explanation: "The <a> tag is used to create a hyperlink in HTML."
     },
     {
       "question": "Which HTML tag is used to define a table?",
       "options": ["<table>", "<tab>", "<td>", "<tr>"],
-      "answer": 1,
-      "explanation": "The <table> tag is used to define a table in HTML."
+      answer: 0,
+      explanation: "The <table> tag is used to define a table in HTML."
     },
     {
       "question": "Which HTML tag is used to define an input field in a form?",
       "options": ["<input>", "<form>", "<textfield>", "<enter>"],
-      "answer": 1,
-      "explanation": "The <input> tag is used to define an input field in a form."
+      answer: 0,
+      explanation: "The <input> tag is used to define an input field in a form."
     },
     {
       "question": "Which HTML tag is used to define a footer for a document or section?",
       "options": ["<bottom>", "<footer>", "<foot>", "<section>"],
-      "answer": 2,
-      "explanation": "The <footer> tag is used to define a footer in HTML."
+      answer: 1,
+      explanation: "The <footer> tag is used to define a footer in HTML."
     },
     {
       "question": "Which doctype declaration is correct for HTML5?",
@@ -61,8 +61,8 @@ const quizData = {
         "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.0//EN\">",
         "<doctype html>"
       ],
-      "answer": 2,
-      "explanation": "The correct doctype for HTML5 is <!DOCTYPE html>."
+      answer: 1,
+      explanation: "The correct doctype for HTML5 is <!DOCTYPE html>."
     }
   ],
   CSS: [
@@ -74,20 +74,20 @@ const quizData = {
         "High-Level Text Markup Language",
         "Hyperlink and Text Markup Language"
       ],
-      "answer": 0,
-      "explanation": "HTML stands for HyperText Markup Language."
+      answer: 0,
+      explanation: "HTML stands for HyperText Markup Language."
     },
     {
       "question": "Which HTML tag is used to define an internal style sheet?",
       "options": ["<script>", "<style>", "<css>", "<link>"],
-      "answer": 1,
-      "explanation": "The <style> tag is used to define internal CSS styles."
+      answer: 1,
+      explanation: "The <style> tag is used to define internal CSS styles."
     },
     {
       "question": "Which property is used to change the background color in CSS?",
       "options": ["color", "bgcolor", "background-color", "background"],
-      "answer": 2,
-      "explanation": "The background-color property is used to change the background color."
+      answer: 2,
+      explanation: "The background-color property is used to change the background color."
     },
     {
       "question": "What is the correct way to apply a CSS className to an element?",
@@ -97,32 +97,32 @@ const quizData = {
         "<div style='classname'>",
         "<div css='classname'>"
       ],
-      "answer": 1,
-      "explanation": "CSS classes are applied using the className attribute, like <div className='classname'>."
+      answer: 1,
+      explanation: "CSS classes are applied using the className attribute, like <div className='classname'>."
     },
     {
       "question": "Which unit is NOT relative in CSS?",
       "options": ["em", "rem", "px", "%"],
-      "answer": 2,
-      "explanation": "px (pixels) is an absolute unit, whereas em, rem, and % are relative units."
+      answer: 2,
+      explanation: "px (pixels) is an absolute unit, whereas em, rem, and % are relative units."
     },
     {
       "question": "Which pseudo-className is used to style an element when a user hovers over it?",
       "options": [":hover", ":focus", ":active", ":visited"],
-      "answer": 0,
-      "explanation": "The :hover pseudo-className applies styles when the user hovers over an element."
+      answer: 0,
+      explanation: "The :hover pseudo-className applies styles when the user hovers over an element."
     },
     {
       "question": "Which of the following is NOT a valid CSS position value?",
       "options": ["static", "fixed", "absolute", "relative-fixed"],
-      "answer": 3,
-      "explanation": "'relative-fixed' is not a valid CSS position value."
+      answer: 3,
+      explanation: "'relative-fixed' is not a valid CSS position value."
     },
     {
       "question": "Which CSS property controls the text size?",
       "options": ["font-size", "text-style", "text-size", "font-style"],
-      "answer": 0,
-      "explanation": "The font-size property is used to control text size in CSS."
+      answer: 0,
+      explanation: "The font-size property is used to control text size in CSS."
     },
     
     {
@@ -133,8 +133,8 @@ const quizData = {
         "flexbox: true;",
         "container: flex;"
       ],
-      "answer": 0,
-      "explanation": "To create a flex container, use 'display: flex;'."
+      answer: 0,
+      explanation: "To create a flex container, use 'display: flex;'."
     },
     {
       "question": "How do you make a flex container in CSS?",
@@ -144,8 +144,8 @@ const quizData = {
         "flexbox: true;",
         "container: flex;"
       ],
-      "answer": 0,
-      "explanation": "To create a flex container, use 'display: flex;'."
+      answer: 0,
+      explanation: "To create a flex container, use 'display: flex;'."
     }
   ],
   JavaScript: [
@@ -352,6 +352,8 @@ function App() {
     setAnswers([]);
   };
 
+  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
   const handleAnswer = (index) => {
     const correctAnswer = quizData[selectedTopic][currentQuestion].answer;
     const newAnswers = [...answers, {
@@ -417,14 +419,14 @@ function App() {
             <h1 className="card-title text-light text-center mb-5">Welcome to the Quiz App</h1>
             <input
               type="text"
-              placeholder="Enter your name"
+              placeholder="Enter Name"
               className="form-control bg-light m-3 w-50 mx-auto"
               value={candidateName}
               onChange={(e) => setCandidateName(e.target.value)}
             />
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder="Enter E-mail"
               className="form-control bg-light m-3 w-50 mx-auto"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -432,7 +434,7 @@ function App() {
             <button
               className="btn btn-success btn-lg m-3 shadow-sm hover-zoom w-50 mx-auto d-block"
               onClick={() => setStep('selectTopic')}
-              disabled={!candidateName.trim() || !email.trim()}
+              disabled={!candidateName.trim() || !isValidEmail(email)} 
             >
               Register
             </button>
@@ -558,6 +560,7 @@ function App() {
             <button
               className="btn btn-success btn-block mt-3"
               onClick={() => setStep('certificate')}
+              disabled={score < 5}
             >
               View Certificate
             </button>
@@ -629,50 +632,71 @@ function App() {
               </div>
   </>
  }
-  const renderCertificate = () => (
-    <div style={{
+ const renderCertificate = () => (
+  <div className="certificate-container d-flex justify-content-center align-items-center text-center p-3"
+    style={{
       backgroundImage: 'url(./assets/Grad.webp)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '100vh',
+      minHeight: '100vh',
       width: '100%',
       display: 'flex',
-      justifyContent: 'center',
+      flexDirection: 'column',
       alignItems: 'center',
-      textAlign: 'center',
-      padding: '20px',
+      justifyContent: 'center',
     }}>
 
-      
-      <div className="container mt-5">
-      <div className="card shadow-lg p-5 mb-5 bg-white rounded" style={{ border: "10px solid gold" }}>
-      <div className="card-body text-center">
-      <h1 className="card-title">🎓 Certificate of Completion 🎓</h1>
-      <p className="lead">This is to certify that</p>
-      <h2>{candidateName}</h2>
-      <p>has successfully completed the <strong>{selectedTopic}</strong> certification exam.</p>
-      <p>They scored <strong>{score}/10</strong> in the exam.</p>
-      <p>Congratulations on your achievement!</p>
-          <button
-            className="btn btn-primary mt-3"
-            onClick={() => setStep('selectTopic')}
-            >
+    <div className="container d-flex justify-content-center">
+      <div className="card shadow-lg p-5 bg-white rounded text-center" 
+        style={{ 
+          border: "8px solid gold", 
+          maxWidth: "850px",  
+          width: "100%", 
+          textAlign: "center",
+          boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)", 
+        }}>
+        
+        {/* Certificate Header */}
+        <div className="card-body">
+          <h1 className="card-title text-warning fw-bold" style={{ fontSize: "2rem" }}>
+            🎓Certificate🎓
+          </h1>
+          <hr style={{ borderTop: "3px solid gold", width: "60%", margin: "10px auto" }} />
+
+          {/* Recipient Name */}
+          <p className="lead">This is to certify that</p>
+          <h2 className="text-primary fw-bold" style={{ fontSize: "2.2rem" }}>
+            {candidateName}
+          </h2>
+
+          {/* Certificate Details */}
+          <p className="mt-3">has successfully completed the</p>
+          <h3 className="fw-bold text-success">{selectedTopic}</h3>
+          <p>Certificate with an excellent score of</p>
+          <h4 className="fw-bold text-danger">{score}/10</h4>
+
+          <p className="fw-bold text-info">Congratulations on your achievement! 🎉</p>
+
+          {/* Retake Button */}
+          <button className="btn btn-primary mt-4 px-4 py-2 fw-bold shadow-sm" onClick={() => setStep('selectTopic')}>
             Retake Quiz
           </button>
         </div>
       </div>
     </div>
-    </div>
-  );
+  </div>
+);
+
+
 
   return (
     <BrowserRouter>
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark my-1">
           <div className="container">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               Quiz App
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -687,31 +711,31 @@ function App() {
             <div className=" collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link active"
                     aria-current="page"
-                    href="contact"
+                    to="contact"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link active"
                     aria-current="page"
-                    href="about"
+                    to="about"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -857,18 +881,82 @@ function App() {
       </div>
     </div></>}/>
     <Route path="about" element={<>
-      <div style={{
-      backgroundImage: 'url(./assets/under.webp)',
+      <div className="d-flex justify-content-center align-items-center text-center p-3"
+    style={{
+      backgroundImage: 'url(./assets/quize.avif)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '100vh',
+      minHeight: '100vh',
       width: '100%',
       display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      textAlign: 'center',
-      padding: '20px',
-    }}></div></>}/>
+      flexDirection: 'column',
+    }}>
+
+    <div className="container d-flex justify-content-center">
+      <div className="card shadow-lg p-5 bg-white rounded text-center"
+        style={{
+          maxWidth: "850px",
+          width: "100%",
+          textAlign: "center",
+          boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
+        }}>
+        
+        <div className="card-body">
+          {/* Title */}
+          <h1 className="text-primary fw-bold">About Quiz-App</h1>
+          <hr style={{ borderTop: "3px solid #007bff", width: "60%", margin: "10px auto" }} />
+
+          {/* Introduction */}
+          <p className="lead">
+            Welcome to <strong>Quiz-App</strong>, the ultimate platform to 
+            <strong> test your knowledge</strong> and <strong>enhance your skills </strong>
+            in various subjects! Whether you're a student, professional, or a quiz enthusiast, 
+            our interactive platform makes learning fun and rewarding.
+          </p>
+
+          {/* Mission */}
+          <h3 className="fw-bold text-success mt-4">Our Mission</h3>
+          <ul className="list-group list-group-flush mx-auto" style={{ maxWidth: "600px", textAlign: "left" }}>
+            <li className="list-group-item">✅ Provide an <strong>interactive learning experience</strong>.</li>
+            <li className="list-group-item">✅ Cover a <strong>wide range of topics</strong> including HTML, CSS, JavaScript, and React.</li>
+            <li className="list-group-item">✅ Make knowledge <strong>accessible</strong> and <strong>engaging</strong> for everyone.</li>
+            <li className="list-group-item">✅ Encourage <strong>continuous self-improvement</strong> through quizzes.</li>
+          </ul>
+
+          {/* How It Works */}
+          <h3 className="fw-bold text-primary mt-4"> How It Works</h3>
+          <p className="mt-3">Our quiz platform is simple and easy to use:</p>
+          <ul className="list-group list-group-flush mx-auto" style={{ maxWidth: "600px", textAlign: "left" }}>
+            <li className="list-group-item">📌 <strong>Sign Up & Select a Topic:</strong> Choose from multiple subjects.</li>
+            <li className="list-group-item">📌 <strong>Answer Questions:</strong> Test your knowledge with multiple-choice questions.</li>
+            <li className="list-group-item">📌 <strong>Instant Feedback:</strong> Get explanations for correct and incorrect answers.</li>
+            <li className="list-group-item">📌 <strong>Earn Certificates:</strong> Score <strong>5 or more</strong> to receive a certificate of completion.</li>
+            <li className="list-group-item">📌 <strong>Improve & Retake:</strong> Didn’t pass? No worries! You can <strong>retake quizzes</strong> and try again.</li>
+          </ul>
+
+          {/* Why Choose Us */}
+          <h3 className="fw-bold text-warning mt-4">Why Choose Quiz-App?</h3>
+          <ul className="list-group list-group-flush mx-auto" style={{ maxWidth: "600px", textAlign: "left" }}>
+            <li className="list-group-item">✔ <strong>User-Friendly Interface:</strong> Easy to navigate and use.</li>
+            <li className="list-group-item">✔ <strong>Wide Range of Topics:</strong> HTML, CSS, JavaScript, React & more.</li>
+            <li className="list-group-item">✔ <strong>Real-Time Scoring:</strong> Instantly see your performance.</li>
+            <li className="list-group-item">✔ <strong>No Page Reloads:</strong> Smooth experience with React Router.</li>
+            <li className="list-group-item">✔ <strong>Certification System:</strong> Earn a certificate for high scores.</li>
+          </ul>
+
+          {/* Contact Info */}
+          <h3 className="fw-bold text-danger mt-4">Get in Touch</h3>
+          <p>
+            Have any <strong>questions, feedback, or suggestions</strong>? We'd love to hear from you!
+          </p>
+          <p>📧 <strong>Email us at:</strong> <a href="mailto:quiz-help@gmail.com">quiz-help@gmail.com</a></p>
+
+          {/* Closing Note */}
+          <p className="fw-bold text-success mt-4">Start your learning journey today with Quiz-App! 🏆</p>
+        </div>
+      </div>
+    </div>
+  </div></>}/>
       </Routes>
     </BrowserRouter>
   );
